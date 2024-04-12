@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPrint</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="#"><img class="img-logo" src="img/sec1/Iprint_Logo_01.png" alt="logo"></a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Orçamentos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>    
+    </header>
+    
+    <section class="fundo-site">
+      <h1>FACHADAS <span>COMERCIAIS.</span></h1> 
+      <div class="btn-sec1">
+        <button><a href="https://api.whatsapp.com/send?phone=5573998234586" target="_blank">Confira nossos serviços</a></button>
+      </div>
+    </section>
+
+    <!-- INICIO CARROSEL -->
+    <div class="wrapper">
+      <div class="slide-wrapper" data-slide="wrapper">
+          <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+          <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+          <div class="slide-list" data-slide="list">
+              <div class="slide-item" data-slide="item" data-index="0">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/DryFashion.jpg" alt="Assassin's Creed" />
+                      <div class="slide-description">
+                          <h3>Letreiros</h3>
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="1">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/EletroShop.jpg" alt="Fortnite" />
+                      <div class="slide-description">
+                          <h3>Terminais Rodoviarios</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="2">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/Friends.jpg" alt="Freefire" />
+                      <div class="slide-description">
+                          <h3>Fachadas Iluminadas</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="3">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/GigaSat.jpg" alt="GTA V" />
+                      <div class="slide-description">
+                          <h3>Placas em chapa de sinalização viária</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="4">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/Srtem.jpg" alt="Halo 5" />
+                      <div class="slide-description">
+                          <h3>Placas com revestimentos em lona</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="5">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/SuperFarma.jpeg" alt="League of Legends" />
+                      <div class="slide-description">
+                          <h3>Fachadas Modernas</h3>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="6">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/Blackcell.jpg" alt="Red Dead Redemption 2" />
+                      <div class="slide-description">
+                          <h3>Fachada em lona e plotagem em parede externa</h3>                      
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="7">
+                  <div class="slide-content">
+                      <img class="slide-image" src="img/fachadas/JP.jpg" alt="Zelda" />
+                      <div class="slide-description">
+                          <h3>Plotagens Automotivas</h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="slide-controls" data-slide="controls-wrapper">
+          </div>
+      </div>
+  </div>
+  <script src="./assets/js/slides.js"></script>
+  <script>
+      initSlider({
+          autoPlay: true,
+          startAtIndex: 0,
+          timeInterval: 2000
+      })
+  </script>
+
+<footer>
+    <div class="container">
+        <div class="row">
+              <div class="col" id="company">
+                  <img src="img/sec1/Iprint_Logo_02.png" alt="" class="logo">
+                  <p>
+                    Somos uma empresa focada em comunicação visual, levando ao
+                    seu comércio a beleza que ele precisa.
+                  </p>
+                  <div class="social">
+                    <a href="https://api.whatsapp.com/send?phone=5573998234586" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/iprint.tx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+              </div>
+
+              <div class="col" id="useful-links">
+                 <h3>Links</h3>
+                 <div class="links">
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Orçamentos</a>
+                    <a href="#">Contato</a>
+                 </div>
+              </div>
+
+              <div class="col" id="contact">
+                  <h3>Contatos</h3>
+                  <div class="contact-details">
+                     <i class="fa fa-location"></i>
+                     <p>Av. Vinícius de Moraes, 55 - Colina Verde,
+                        Teixeira de Freitas - BA, CEP: 45987-324</p>
+                  </div>
+                  <div class="contact-details">
+                     <i class="fa fa-phone"></i>
+                     <p>(73) 99823-4586 / (73) 73 9820-1102</p>
+                  </div>
+                  <div class="clock">
+                    <i class="fa fa-clock"></i>
+                    <p>Horário de funcionamento: 
+                        Segunda à Sexta: 08:00 às 18:00
+                        </p>
+                 </div>
+              </div>
+        </div>
+    </div>
+ </footer>
+
+    <script src="script.js" class="btn"></script>
+  </body>
+</html>
